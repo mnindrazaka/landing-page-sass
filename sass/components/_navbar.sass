@@ -1,0 +1,24 @@
+$navbar-item-padding: 20px 0px
+
+.navbar
+  padding: $base-padding
+  background-color: $primary-color
+  display: flex
+  justify-content: space-between
+
+  &__brand
+    flex: 1
+    padding: $navbar-item-padding
+    font-size: $font-size-huge
+    font-weight: bold
+    color: $text-color
+
+  &__menu
+    display: flex
+    justify-content: space-between
+    flex: 1
+
+  &__link
+    padding: $navbar-item-padding
+    color: $text-color
+    +border-transition($text-color)

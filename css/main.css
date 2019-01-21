@@ -1,0 +1,43 @@
+body, h1, h2, h3, h4, h5, h6, button, a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  text-decoration: none;
+}
+
+.navbar {
+  padding: 0px 100px;
+  background-color: #51B4FF;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__brand {
+  flex: 1;
+  padding: 20px 0px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+.navbar__menu {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}
+.navbar__link {
+  padding: 20px 0px;
+  color: #fff;
+}
+.navbar__link:after {
+  display: block;
+  padding-top: 5px;
+  content: "";
+  border-bottom: solid 3px #fff;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.navbar__link:hover:after {
+  transform: scaleX(1);
+}
+
+/*# sourceMappingURL=main.css.map */
