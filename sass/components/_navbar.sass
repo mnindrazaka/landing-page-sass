@@ -1,7 +1,7 @@
-$navbar-item-padding: 20px 0px
+$navbar-item-padding: 25px 0px
 
 .navbar
-  padding: $base-padding
+  +padding-horizontal($spacing-container)
   background-color: $primary-color
   display: flex
   justify-content: space-between
@@ -9,7 +9,7 @@ $navbar-item-padding: 20px 0px
   &__brand
     flex: 1
     padding: $navbar-item-padding
-    font-size: $font-size-huge
+    font-size: $font-size-large
     font-weight: bold
     color: $text-color
 

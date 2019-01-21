@@ -1,0 +1,23 @@
+.banner
+  display: flex
+  justify-content: space-between
+  align-items: center
+  +padding-horizontal($spacing-container)
+  +padding-vertical(150px)
+  background-color: $primary-color
+  color: $text-color
+
+  &__image
+    flex: 1.3
+
+  &__info
+    flex: 1
+    padding: 15px
+
+  &__title
+    font-size: $font-size-massive
+    font-weight: bold
+
+  &__description
+    font-size: $font-size-medium
+    line-height: 25px
