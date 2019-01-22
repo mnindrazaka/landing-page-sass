@@ -72,4 +72,88 @@ img {
   line-height: 25px;
 }
 
+.button {
+  padding: 15px 25px;
+  background-color: #fff;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 14px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: transparent;
+  cursor: pointer;
+}
+.button--primary {
+  background-color: #51B4FF;
+  color: #fff;
+}
+.button--secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+.button--success {
+  background-color: #28a745;
+  color: #fff;
+}
+.button--danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+.button--warning {
+  background-color: #ffc107;
+  color: #000;
+}
+.button--info {
+  background-color: #17a2b8;
+  color: #fff;
+}
+.button--light {
+  background-color: #fff;
+  color: #000;
+}
+.button--dark {
+  background-color: #000;
+  color: #fff;
+}
+.button--outline-primary {
+  background-color: transparent;
+  border-color: #51B4FF;
+  color: #51B4FF;
+}
+.button--outline-secondary {
+  background-color: transparent;
+  border-color: #6c757d;
+  color: #6c757d;
+}
+.button--outline-success {
+  background-color: transparent;
+  border-color: #28a745;
+  color: #28a745;
+}
+.button--outline-danger {
+  background-color: transparent;
+  border-color: #dc3545;
+  color: #dc3545;
+}
+.button--outline-warning {
+  background-color: transparent;
+  border-color: #ffc107;
+  color: #ffc107;
+}
+.button--outline-info {
+  background-color: transparent;
+  border-color: #17a2b8;
+  color: #17a2b8;
+}
+.button--outline-light {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+.button--outline-dark {
+  background-color: transparent;
+  border-color: #000;
+  color: #000;
+}
+
 /*# sourceMappingURL=main.css.map */
